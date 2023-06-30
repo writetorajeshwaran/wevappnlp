@@ -11,6 +11,10 @@ public class HelloWorldController {
 	public String helloWorld() {
 		return "Hello World";
 	}
+	@GetMapping(path = "/nlppoc")
+	public String nlppoc() {
+		return "NLP Web App POC";
+	}
 
 
 	@GetMapping(path = "/hello-world-bean")
